@@ -12,14 +12,12 @@ body {
     color: #333;
     line-height: 1.6;
 }
-
-/* Encabezado principal */
+/* Titulo */
 h1 {
     text-align: center;
     color: #2c3e50;
     margin-top: 20px;
 }
-
 /* Foto */
 img {
     display: block;
@@ -71,21 +69,17 @@ a:hover {
     color: rgb(159, 159, 159);
 }
 
-/* Contenedor para Perfil Profesional y Objetivo Profesional */
 .profile {
     display: grid;
-    grid-template-columns: 1fr 1fr; /* dos columnas iguales */
-    gap: 20px; /* espacio entre columnas */
-    max-width: 1000px;
+    grid-template-columns: 1fr 1fr; 
+    gap: 20px; 
     margin: 20px auto;
 }
 
-/* Ajustar secciones dentro del grid */
 .profile section {
-    margin: 0; /* quitar márgenes internos de section porque el contenedor ya los maneja */
+    margin: 0; 
 }
-
-/* Carrusel de hobbies */
+/* Carrusel de hobbies, Apoyado de inteligencia artificial */
 .hobbies-carousel {
     display: flex;
     gap: 15px;
