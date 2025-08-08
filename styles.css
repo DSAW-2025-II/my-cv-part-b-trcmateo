@@ -1,0 +1,126 @@
+/* Este es un comentario */
+/* Enlaza este archivo en tu HTML con:
+<link rel="stylesheet" href="styles.css">
+*/
+
+/* Estilo general */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Encabezado principal */
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-top: 20px;
+}
+
+/* Foto */
+img {
+    display: block;
+    margin: 10px auto;
+    border: 3px solid #2c3e50;
+}
+
+/* Secciones */
+section {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Títulos de sección */
+h2 {
+    color: #34495e;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+}
+
+/* Párrafos */
+p {
+    margin-bottom: 10px;
+}
+
+/* Listas */
+ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+/* Enlaces */
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(159, 159, 159);
+}
+
+/* Contenedor para Perfil Profesional y Objetivo Profesional */
+.profile {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* dos columnas iguales */
+    gap: 20px; /* espacio entre columnas */
+    max-width: 1000px;
+    margin: 20px auto;
+}
+
+/* Ajustar secciones dentro del grid */
+.profile section {
+    margin: 0; /* quitar márgenes internos de section porque el contenedor ya los maneja */
+}
+
+/* Carrusel de hobbies */
+.hobbies-carousel {
+    display: flex;
+    gap: 15px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding: 10px;
+}
+
+.hobbies-carousel::-webkit-scrollbar {
+    height: 8px;
+}
+
+.hobbies-carousel::-webkit-scrollbar-thumb {
+    background-color: #ccc;
+    border-radius: 4px;
+}
+
+.hobby-card {
+    flex: 0 0 auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+    scroll-snap-align: start;
+}
+
+.hobby-card p {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.hobby-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+}

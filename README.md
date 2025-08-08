@@ -3,8 +3,8 @@
 **Nombre completo: Mateo Ramirez Cabrera**
 **ID de la Universidad: 0000306005**
 **Usuario de Github: trcmateo**
-**Url:**
-**CSS DINNER**
+**Url:https://dsaw-2025-ii.github.io/my-cv-part-b-trcmateo/**
+**CSS DINNER:**
 ![Css-dinner](assets/CssDinner.png)
 
 # Bienvenidos a la Tarea de HTML y CSS
