@@ -3,7 +3,7 @@ Nombre completo: Mateo Ramirez Cabrera
 ID de la Universidad: 0000306005
 Usuario de Github: trcmateo
 Url:
-![Css-dinner](./asets.CssDinner.png)
+![Css-dinner](asets/CssDinner.png)
 
 # Bienvenidos a la Tarea de HTML y CSS
 
