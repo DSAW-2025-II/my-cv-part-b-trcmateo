@@ -5,7 +5,7 @@
 **Usuario de Github: trcmateo**
 **Url:**
 **CSS DINNER**
-![Css-dinner](/Users/teo/Documents/Unisabana/Desarollo web/my-cv-part-b-trcmateo/assets/Mateo.jpeg)
+![Css-dinner](my-cv-part-b-trcmateo/assets/Mateo.jpeg)
 
 # Bienvenidos a la Tarea de HTML y CSS
 
